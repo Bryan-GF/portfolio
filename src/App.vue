@@ -5,23 +5,25 @@
     </div>
     <div class='contentWrapper'>
       <Intro/>
-      <img alt="Vue logo" src="./assets/logo.png">
-      <HelloWorld msg="Welcome to Your Vue.js App"/>
+      <Projects/>
+      <Contact/>
     </div>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-import Nav from './components/Nav.vue'
-import Intro from './components/Intro.vue'
+import Nav from './components/Nav.vue';
+import Intro from './components/Intro.vue';
+import Projects from './components/Projects.vue';
+import Contact from './components/Contact.vue';
 
 export default {
   name: 'app',
   components: {
-    HelloWorld,
     Nav,
-    Intro
+    Intro,
+    Projects,
+    Contact
   } 
 }
 </script>
@@ -32,6 +34,7 @@ export default {
 
 body {
   margin: 0;
+  color: #212121;
 }
 
 #app {
@@ -41,7 +44,10 @@ body {
 }
 
 .contentWrapper {
-  padding: 110px 0 0 0;
+  padding: 130px 0 0 0;
 }
 
+h1 {
+  
+}
 </style>

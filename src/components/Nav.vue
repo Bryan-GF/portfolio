@@ -53,11 +53,6 @@ export default {
 <style lang="less">
 
 
-h2 {
-    font-family: 'Pacifico', cursive;
-    margin: 0;
-}
-
 .navbar {
     display: flex;
     position: fixed;
@@ -69,6 +64,13 @@ h2 {
     transform: translate3d(0, 0, 0);
     transition: 0.2s all ease-out;
     width: 100%;
+
+    
+    h2 {
+        font-family: 'Pacifico', cursive;
+        margin: 0;
+    }
+
 }
 
 .navbar.navbar--hidden {
