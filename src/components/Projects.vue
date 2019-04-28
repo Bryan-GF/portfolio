@@ -91,7 +91,7 @@ export default {
       .cardContainer {
         display: flex;
         align-items: center;
-        border-radius: 25px;
+        border-radius: 10px;
         flex-direction: column;
         padding-top: 2rem;
         padding-bottom: 2rem;

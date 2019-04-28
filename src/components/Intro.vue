@@ -2,12 +2,7 @@
   <div class="Intro">
     <div class='introBody'>
         <h1>Hey there!</h1>
-        <p>I'm Bryan Garcia-Felix, a full stack developer. Welcome to my <span class="portfolio">portfolio!</span></p>
-    </div>
-    <div class="introButton">
-        <button>What has Bryan done?</button>
-    </div>
-    <div>
+        <p>I'm Bryan Garcia-Felix, the full stack developer you might want to hire. Welcome to my <span class="portfolio">portfolio!</span></p>
     </div>
   </div>
 </template>
@@ -38,7 +33,7 @@ export default {
 <style lang="less">
 
 .Intro {
-  padding: 0 1rem 4rem 1rem;
+  padding: 0 1.5rem 4rem 1.5rem;
 }
 
 .introBody {
@@ -75,8 +70,10 @@ export default {
     }
 }
 
-@media screen and (min-width: 400px) {
-    
+@media screen and (min-width: 600px) {
+    .Intro {
+      padding: 0 4rem 4rem 4rem;
+    }
 }
 
 
