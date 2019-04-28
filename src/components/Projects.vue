@@ -10,12 +10,19 @@
           <img alt="Erudition screenshot" src="../assets/Erudition.jpg">
         </div>
         <div class='projectInfo'>
+          <div class='projectStack'>
+            <span>ReactJS</span>
+            <span>NextJS</span>
+            <span>Firebase</span>
+            <span>Algolia</span>
+            <span>MaterialUI</span>
+          </div>
           <p>Learning made Social. Erudition is an app for people to find, store, share, and discuss online learning resource.</p>
           <div class='projectButtons'>
-            <a target='_blank' href='https://learned-app.now.sh/'>
+            <a class='leftTag' target='_blank' href='https://learned-app.now.sh/'>
               <button>Website</button>
             </a>
-            <a target='_blank' href='https://github.com/labs11-learned-1/labs11-learned1-FE'>
+            <a class='rightTag' target='_blank' href='https://github.com/labs11-learned-1/labs11-learned1-FE'>
               <button>Github</button>
             </a>
           </div>
@@ -29,12 +36,20 @@
           <img alt="Jotter screenshot" src="../assets/Jotter.png">
         </div>
         <div class='projectInfo'>
+          <div class='projectStack'>
+            <span>ReactJS</span>
+            <span>Redux</span>
+            <span>Express</span>
+            <span>PostgreSQL</span>
+            <span>Bcrypt</span>
+            <span>CSS</span>
+          </div>
           <p>Jotter is an app where users can create, store, and manage all their notes.</p>
           <div class='projectButtons'>
-            <a target='_blank' href='https://trusting-lichterman-9aca74.netlify.com/'>
+            <a class='leftTag' target='_blank' href='https://trusting-lichterman-9aca74.netlify.com/'>
               <button>Website</button>
             </a>
-            <a target='_blank' href='https://github.com/Bryan-GF/front-end-project-week'>
+            <a target='_blank' href='https://github.com/Bryan-GF/front-end-project-week' class='rightTag' >
               <button>Github</button>
             </a>
           </div>
@@ -141,7 +156,20 @@ export default {
           display: flex;
           justify-content: center;
           flex-wrap: wrap;
-          padding-top: 1rem;
+          padding: 1rem 1rem 0 1rem;
+
+          .projectStack {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            span {
+              border: 3px solid #ED202E;
+              padding: .3rem;
+              border-radius: 6px;
+              font-weight: bold;
+              margin: .2rem;
+            }
+          }
           p {
            width: 90%; 
            font-size: 1.1rem;
@@ -150,8 +178,14 @@ export default {
           .projectButtons {
             margin-top: 1rem;
 
-            a {
-              margin: 1rem 1rem;
+            a.leftTag {
+              margin-left: none;
+              margin-right: 1rem;
+            }
+            
+            a.rightTag {
+              margin-right: none;
+              margin-left: 1rem;
             }
 
             button {
@@ -174,5 +208,9 @@ export default {
       }     
     }
   }
+
+@media screen and (min-width: 765px) {
+    
+}
 
 </style>
