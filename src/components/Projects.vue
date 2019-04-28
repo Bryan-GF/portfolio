@@ -209,6 +209,12 @@ export default {
     }
   }
 
+@media screen and (min-width: 600px) {
+  .Projects {
+    padding: 0 3rem 3rem 3rem;
+  }
+}
+
 @media screen and (min-width: 765px) {
     
 }
