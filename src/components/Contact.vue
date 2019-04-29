@@ -93,4 +93,48 @@ export default {
         }
     }
 
+
+
+@media screen and (min-width: 765px) {
+    .Contact {
+      padding: 2rem 10vw 4rem 10vw;
+      h1 {
+          font-size: 2.8rem;
+      }
+      p {
+          font-size: 1.6rem;
+      }
+      span {
+        font-size: 1.4rem;
+      }
+        .contactIcons {
+                svg {
+                    height: 60px;
+                    width: 60px;
+                }
+        }
+    }
+}
+
+@media screen and (min-width: 1050px) {
+    .Contact {
+      h1 {
+          font-size: 3.5rem;
+      }
+      p {
+          font-size: 1.9rem;
+      }
+      span {
+        font-size: 1.6rem;
+      }
+        .contactIcons {
+            svg {
+                height: 65px;
+                width: 65px;
+            }
+        }
+    }
+}
+
+
 </style>

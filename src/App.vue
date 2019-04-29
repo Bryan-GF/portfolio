@@ -47,7 +47,4 @@ body {
   padding: 130px 0 0 0;
 }
 
-h1 {
-  
-}
 </style>

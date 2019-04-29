@@ -216,7 +216,14 @@ export default {
 }
 
 @media screen and (min-width: 765px) {
-    
+    .Projects {
+      h1 {
+        font-size:3.5rem;
+      }
+      p {
+        font-size: 3.5rem;
+      }
+    }
 }
 
 </style>

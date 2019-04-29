@@ -76,6 +76,32 @@ export default {
     }
 }
 
+@media screen and (min-width: 765px) {
+    .introBody {
+      h1 {
+        font-size:3.5rem;
+      }
+      p {
+        font-size: 3.5rem;
+      }
+    }
+}
+
+@media screen and (min-width: 765px) {
+    .Intro {
+      padding: 5rem 15vw 0 15vw;
+      height: 70vh;
+    }
+    .introBody {
+      h1 {
+        font-size:3.5rem;
+      }
+      p {
+        font-size: 3.5rem;
+      }
+    }
+}
+
 
 
 </style>
