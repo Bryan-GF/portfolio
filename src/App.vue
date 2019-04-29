@@ -44,7 +44,7 @@ body {
 }
 
 .contentWrapper {
-  padding: 130px 0 0 0;
+  padding: 110px 0 0 0;
 }
 
 </style>

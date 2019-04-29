@@ -51,6 +51,10 @@ export default {
         window.scrollTo(0, 600);
       } else if (type === 'contact') {
         window.scrollTo(0, 1800);
+      } else if (type === 'projectsDesktop') {
+        window.scrollTo(0, 900);
+      } else {
+        window.scrollTo(0, 2500);
       }
 
     }
@@ -66,9 +70,9 @@ export default {
           <h2>Bryan</h2>
       </div>
       <div class='navMain'>
-          <span>Projects</span>
+          <span @click="scrollChange('projectsDesktop')">Projects</span>
           <span>Resume</span>
-          <span>Contact</span>
+          <span @click="scrollChange('contactDesktop')">Contact</span>
           <font-awesome-icon icon="bars" v-on:click="activeDropdown = !activeDropdown"/>
       </div>
     </div>
@@ -167,7 +171,7 @@ export default {
     }
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 765px) {
   .logo {
     margin-left: 2.5rem;
   }
@@ -180,7 +184,6 @@ export default {
     }
   }
 }
-
 
 
 </style>

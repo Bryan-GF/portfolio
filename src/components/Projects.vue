@@ -233,10 +233,6 @@ export default {
       font-size: 3.5rem;
     }
     .projectContainer {
-      position: relative;
-
-    
-
       .cardContainer {
         
         .projectHeader{
