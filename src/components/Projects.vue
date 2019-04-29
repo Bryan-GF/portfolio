@@ -2,56 +2,59 @@
   <div class="Projects">
     <h1>Projects</h1>
     <div class='projectContainer'>
-      <div class='cardContainer'>
+      <div class='cardContainer rightContainer'>
         <div class='projectHeader right'>
           <h2>Erudition</h2>
         </div>
-        <div class='projectImage'>
-          <img alt="Erudition screenshot" src="../assets/Erudition.jpg">
-        </div>
-        <div class='projectInfo'>
-          <div class='projectStack'>
-            <span>ReactJS</span>
-            <span>NextJS</span>
-            <span>Firebase</span>
-            <span>Algolia</span>
-            <span>MaterialUI</span>
+        <div class='projectContent rightContent'> 
+          <div class='projectImage'>
+            <img alt="Erudition screenshot" src="../assets/Erudition.jpg">
           </div>
-          <p>Learning made Social. Erudition is an app for people to find, store, share, and discuss online learning resource.</p>
-          <div class='projectButtons'>
-            <a class='leftTag' target='_blank' href='https://learned-app.now.sh/'>
-              <button>Website</button>
-            </a>
-            <a class='rightTag' target='_blank' href='https://github.com/labs11-learned-1/labs11-learned1-FE'>
-              <button>Github</button>
-            </a>
+          <div class='projectInfo'>
+            <div class='projectStack'>
+              <span>ReactJS</span>
+              <span>NextJS</span>
+              <span>Firebase</span>
+              <span>Algolia</span>
+              <span>MaterialUI</span>
+            </div>
+            <p>Learning made Social. Erudition is an app for people to find, store, share, and discuss online learning resource.</p>
+            <div class='projectButtons'>
+              <a class='leftTag' target='_blank' href='https://learned-app.now.sh/'>
+                <button>Website</button>
+              </a>
+              <a class='rightTag' target='_blank' href='https://github.com/labs11-learned-1/labs11-learned1-FE'>
+                <button>GitHub</button>
+              </a>
+            </div>
           </div>
         </div>
       </div>
-      <div class='cardContainer'>
+      <div class='cardContainer leftContainer'>
         <div class='projectHeader left'>
           <h2>Jotter</h2>
         </div>
-        <div class='projectImage'>
-          <img alt="Jotter screenshot" src="../assets/Jotter.png">
-        </div>
-        <div class='projectInfo'>
-          <div class='projectStack'>
-            <span>ReactJS</span>
-            <span>Redux</span>
-            <span>Express</span>
-            <span>PostgreSQL</span>
-            <span>Bcrypt</span>
-            <span>CSS</span>
+        <div class='projectContent leftContent'> 
+          <div class='projectImage'>
+            <img alt="Jotter screenshot" src="../assets/Jotter.png">
           </div>
-          <p>Jotter is an app where users can create, store, and manage all their notes.</p>
-          <div class='projectButtons'>
-            <a class='leftTag' target='_blank' href='https://trusting-lichterman-9aca74.netlify.com/'>
-              <button>Website</button>
-            </a>
-            <a target='_blank' href='https://github.com/Bryan-GF/front-end-project-week' class='rightTag' >
-              <button>Github</button>
-            </a>
+          <div class='projectInfo'>
+            <div class='projectStack'>
+              <span>ReactJS</span>
+              <span>Redux</span>
+              <span>Express</span>
+              <span>PostgreSQL</span>
+              <span>CSS</span>
+            </div>
+            <p>Jotter is an app where users can create, store, and manage all their notes.</p>
+            <div class='projectButtons'>
+              <a class='leftTag' target='_blank' href='https://trusting-lichterman-9aca74.netlify.com/'>
+                <button>Website</button>
+              </a>
+              <a target='_blank' href='https://github.com/Bryan-GF/front-end-project-week' class='rightTag' >
+                <button>GitHub</button>
+              </a>
+            </div>
           </div>
         </div>
       </div>
@@ -113,94 +116,89 @@ export default {
         overflow:hidden;
         background: white;
         margin-bottom: 90px;
-        
         .projectHeader{
-          padding-bottom: 2rem;
-          width: 100%;
-          display: flex;
-          flex-wrap: wrap;
-          justify-content: center;
-
-          h2 {
-            margin: 0;
-            font-size: 2.3rem;
+            padding-bottom: 2rem;
             width: 100%;
-          }
-          
-        }
-
-        .right {
-          h2 {
-            text-align: end;
-            padding-right: 30px;
-          } 
-        }
-
-        .left {
-          h2 {
-            text-align: start;
-            padding-left: 30px;
-          } 
-        }
-
-        .projectImage {
-          width: 90%;
-          img {
-            width: 100%;
-            border-top: 6px solid #ED202E;
-            border-bottom: 6px solid #ED202E;
-          }
-        }
-
-        .projectInfo {
-          display: flex;
-          justify-content: center;
-          flex-wrap: wrap;
-          padding: 1rem 1rem 0 1rem;
-
-          .projectStack {
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
-            span {
-              border: 3px solid #ED202E;
-              padding: .3rem;
-              border-radius: 6px;
-              font-weight: bold;
-              margin: .2rem;
-            }
-          }
-          p {
-           width: 90%; 
-           font-size: 1.1rem;
-           text-align: center;
-          }
-          .projectButtons {
-            margin-top: 1rem;
 
-            a.leftTag {
-              margin-left: none;
-              margin-right: 1rem;
+            h2 {
+              margin: 0;
+              font-size: 2.3rem;
+              width: 100%;
+              padding-left: 30px;
             }
             
-            a.rightTag {
-              margin-right: none;
-              margin-left: 1rem;
-            }
+          }
 
-            button {
-              background: white;
-              border: none;            
-              outline: none;              
-              padding: 1rem 1rem;
-              font-size: 1.5rem;
-              font-weight: 600;
-              width: 130px;
-              background: #ED202E;
-              color: white;
-              &:hover {
-                  cursor: pointer;
-                  background: #f7717a;
+          
+          
+        .projectContent {
+          display: flex;
+          align-items: center;
+          flex-direction: column;
+          
+
+          .projectImage {
+            width: 90%;
+            img {
+              width: 100%;
+              border-top: 6px solid #ED202E;
+              border-bottom: 6px solid #ED202E;
+            }
+          }
+
+          .projectInfo {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            padding: 1rem 1rem 0 1rem;
+
+            .projectStack {
+              display: flex;
+              flex-wrap: wrap;
+              justify-content: center;
+              span {
+                border: 3px solid #ED202E;
+                padding: .3rem;
+                border-radius: 6px;
+                font-weight: bold;
+                margin: .2rem;
+              }
+            }
+            p {
+            width: 90%; 
+            font-size: 1.1rem;
+            text-align: center;
+            }
+            .projectButtons {
+              margin-top: 1rem;
+
+              a.leftTag {
+                margin-left: none;
+                margin-right: 1rem;
+              }
+              
+              a.rightTag {
+                margin-right: none;
+                margin-left: 1rem;
+              }
+
+              button {
+                background: white;
+                border: none;            
+                outline: none;              
+                padding: 1rem 1rem;
+                font-size: 1.5rem;
+                font-weight: 600;
+                width: 130px;
+                background: #ED202E;
+                color: white;
+                &:hover {
+                    cursor: pointer;
+                    background: #f7717a;
+                }
               }
             }
           }
@@ -216,14 +214,81 @@ export default {
 }
 
 @media screen and (min-width: 765px) {
-    .Projects {
-      h1 {
-        font-size:3.5rem;
+  .Projects {
+    .projectContainer {
+      .projectInfo {
+        p {
+          font-size: 1.3rem;
+        }
       }
-      p {
-        font-size: 3.5rem;
+
+    }
+    
+  }
+}
+@media screen and (min-width: 975px) {
+  .Projects {
+    padding: 0 2rem 3rem 2rem;
+    h1 {
+      font-size: 3.5rem;
+    }
+    .projectContainer {
+      position: relative;
+
+    
+
+      .cardContainer {
+        
+        .projectHeader{
+          h2 {
+            font-size: 2.7rem;
+          } 
+        }
+        
+        .rightContent {
+          flex-direction: row;
+        }
+        .leftContent {
+          flex-direction: row;
+        }
+        .projectContent {
+          display: flex;      
+          .projectImage {
+            width: 55%;
+            padding: 0 1rem;
+            img {
+              width: 90%;
+              display: block;
+              margin: 0 auto;
+            }
+          }
+          .projectInfo {
+            width: 45%;
+            padding: 0 0 0 0;
+            p {
+              font-size: 1.4rem;
+              padding: 1vw 0;
+            }
+          }
+        }
+        
       }
     }
+    
+  }
 }
+
+@media screen and (min-width: 1300px) {
+  .Projects {
+    .projectContainer {
+      width: 80%;
+      margin: 0 auto;
+      margin-top: 6rem;
+    }
+    
+  }
+}
+
+
 
 </style>
