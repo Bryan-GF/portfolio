@@ -58,6 +58,32 @@
           </div>
         </div>
       </div>
+      <div class='cardContainer leftContainer'>
+        <div class='projectHeader left'>
+          <h2>Treasure Hunt</h2>
+        </div>
+        <div class='projectContent leftContent'> 
+          <div class='projectImage'>
+            <img alt="Treasure Hunt screenshot" src="../assets/treasurehunt.png">
+          </div>
+          <div class='projectInfo'>
+            <div class='projectStack'>
+              <span>ReactJS</span>
+              <span>CSS</span>
+              <span>Alogirthm Heavy</span>
+            </div>
+            <p>Treasure Hunt is a dungeon crawler-esque game. Watch the world build itself around you as you discover new rooms. Find treasure and sell it at the shop and build a fortune. What you do on your adventure is your decision.</p>
+            <div class='projectButtons'>
+              <a class='leftTag' target='_blank' href='https://condescending-shaw-7f2791.netlify.com/'>
+                <button>Website</button>
+              </a>
+              <a target='_blank' href='https://github.com/Bryan-GF/Lambda-Treasure-Hunt' class='rightTag' >
+                <button>GitHub</button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </template>
