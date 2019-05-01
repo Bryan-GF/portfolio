@@ -48,13 +48,13 @@ export default {
     },
     scrollChange: function(type) {
       if(type === 'projects') {
-        window.scrollTo(0, 600);
+        window.scrollTo(0, 410);
       } else if (type === 'contact') {
-        window.scrollTo(0, 1800);
+        window.scrollTo(0, 3000);
       } else if (type === 'projectsDesktop') {
-        window.scrollTo(0, 900);
+        window.scrollTo(0, 800);
       } else {
-        window.scrollTo(0, 2500);
+        window.scrollTo(0, 6000);
       }
 
     }
