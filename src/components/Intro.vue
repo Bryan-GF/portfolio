@@ -34,10 +34,11 @@ export default {
 
 .Intro {
   padding: 0 1.5rem 4rem 1.5rem;
+  
 }
 
 .introBody {
-  margin-top: 8rem;
+  margin-top: 5rem;
     h1 {
         color: #ED202E;
         font-size: 2.5rem;
@@ -74,6 +75,10 @@ export default {
 @media screen and (min-width: 600px) {
     .Intro {
       padding: 0 4rem 4rem 4rem;
+      height: 30vh;
+    }
+    .introBody {
+      margin-top: 5rem;
     }
 }
 

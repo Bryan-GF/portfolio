@@ -48,7 +48,7 @@ export default {
     },
     scrollChange: function(type) {
       if(type === 'projects') {
-        window.scrollTo(0, 410);
+        window.scrollTo(0, 475);
       } else if (type === 'contact') {
         window.scrollTo(0, 3000);
       } else if (type === 'projectsDesktop') {
