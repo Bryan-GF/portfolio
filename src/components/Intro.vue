@@ -37,6 +37,7 @@ export default {
 }
 
 .introBody {
+  margin-top: 8rem;
     h1 {
         color: #ED202E;
         font-size: 2.5rem;
@@ -82,6 +83,7 @@ export default {
       height: 70vh;
     }
     .introBody {
+      margin-top:3rem;
       h1 {
         font-size:3.5rem;
       }
@@ -91,6 +93,10 @@ export default {
     }
 }
 
-
+@media screen and (min-width: 1200px) {
+  .introBody {
+      margin-top:8rem;
+  }
+}
 
 </style>
