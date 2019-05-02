@@ -16,6 +16,7 @@
               <span>NextJS</span>
               <span>Firebase</span>
               <span>Algolia</span>
+              <span>Webpack</span>
               <span>MaterialUI</span>
             </div>
             <p>Learning made Social. Erudition is an app for people to find, store, share, and discuss online learning resource.</p>
@@ -44,6 +45,7 @@
               <span>Redux</span>
               <span>Express</span>
               <span>PostgreSQL</span>
+              <span>Bcrypt</span>
               <span>CSS</span>
             </div>
             <p>Jotter is an app where users can create, store, and manage all their notes.</p>

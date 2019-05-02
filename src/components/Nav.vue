@@ -50,7 +50,7 @@ export default {
       if(type === 'projects') {
         window.scrollTo(0, 550);
       } else if (type === 'contact') {
-        window.scrollTo(0, 3000);
+        window.scrollTo(0, 6000);
       } else if (type === 'projectsDesktop') {
         window.scrollTo(0, 800);
       } else {
