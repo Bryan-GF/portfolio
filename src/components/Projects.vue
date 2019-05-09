@@ -43,7 +43,7 @@
             <div class='projectStack'>
               <span>ReactJS</span>
               <span>Redux</span>
-              <span>Express</span>
+              <span>ExpressJS</span>
               <span>PostgreSQL</span>
               <span>Bcrypt</span>
               <span>CSS</span>
@@ -53,7 +53,7 @@
               <a class='leftTag' target='_blank' href='https://trusting-lichterman-9aca74.netlify.com/'>
                 <button>Website</button>
               </a>
-              <a target='_blank' href='https://github.com/Bryan-GF/front-end-project-week' class='rightTag' >
+              <a target='_blank' href='https://github.com/Bryan-GF/Front-End-Notes' class='rightTag' >
                 <button>GitHub</button>
               </a>
             </div>
