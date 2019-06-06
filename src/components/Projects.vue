@@ -4,6 +4,35 @@
     <div class='projectContainer'>
       <div class='cardContainer rightContainer'>
         <div class='projectHeader right'>
+          <h2>Swap</h2>
+        </div>
+        <div class='projectContent rightContent'> 
+          <div class='projectImage'>
+            <img alt="Erudition screenshot" src="../assets/Swap.png">
+          </div>
+          <div class='projectInfo'>
+            <div class='projectStack'>
+              <span>ReactTS</span>
+              <span>Typescript</span>
+              <span>MobX</span>
+              <span>MySQL (Azure SQL Database)</span>
+              <span>SASS</span>
+              <span>C# (Azure Functions)</span>
+            </div>
+            <p>Swap is a shift trader app, that allows for simple shift management for all parties involved.</p>
+            <div class='projectButtons'>
+              <a class='leftTag' target='_blank' href='https://swap.azurewebsites.net/'>
+                <button>Website</button>
+              </a>
+              <a class='rightTag' target='_blank' href='https://github.com/Bryan-GF/MyHour'>
+                <button>GitHub</button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class='cardContainer rightContainer'>
+        <div class='projectHeader right'>
           <h2>Erudition</h2>
         </div>
         <div class='projectContent rightContent'> 

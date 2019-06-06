@@ -71,14 +71,15 @@ export default {
       </div>
       <div class='navMain'>
           <span @click="scrollChange('projectsDesktop')">Projects</span>
-          <span class="downloadBoks" onclick="window.open('Bryan_Garcia-Felix_Resume.pdf')">Resume</span>
+          <span class="downloadBoks" onclick="window.open('https://drive.google.com/file/d/1N-LX4VG7qYLlgWw_FsMdmzKbCUI9Hihq/view?usp=sharing')">Resume</span>
           <span @click="scrollChange('contactDesktop')">Contact</span>
           <font-awesome-icon icon="bars" v-on:click="activeDropdown = !activeDropdown"/>
       </div>
     </div>
     <div class="dropdown" :class="{'dropdown-hidden': !activeDropdown}">
       <p @click="scrollChange('projects')" v-bind:style="{ borderTop: '2px solid black' }">Projects</p>
-      <p class="downloadBoks" onclick="window.open('Bryan_Garcia-Felix_Resume.pdf')">Resume</p>
+
+      <p class="downloadBoks" onclick="window.open('https://drive.google.com/file/d/1N-LX4VG7qYLlgWw_FsMdmzKbCUI9Hihq/view?usp=sharing')">Resume</p>
       <p @click="scrollChange('contact')">Contact</p>
     </div>
   </div>
